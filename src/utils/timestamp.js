@@ -5,10 +5,10 @@ export default {
      *  当前时间戳
      */
     timestamp: Math.ceil(new Date().getTime() / 1000),
+
     /**
      * 加密
      * @param keyStr 密钥
-     * @returns {string}
      */
     encrypt(keyStr) {
         if (keyStr == null) {
@@ -20,6 +20,7 @@ export default {
         const encrypted = CryptoJS?.AES.encrypt(time, key, {mode: CryptoJS?.mode.ECB, padding: CryptoJS?.pad.Pkcs7})
         return encrypted.toString()
     },
+
     /**
      * 解密
      * @param cypher 密文

@@ -3,19 +3,19 @@
 #### npm
 
 ```shell script
-npm install -S @dtlc/jwt
+npm install -S @unjuanable/jwt
 ```
 
 #### yarn
 
 ```shell script
-yarn add @dtlc/jwt
+yarn add @unjuanable/jwt
 ```
 
 # 工具
 
 ```js
-import {signature, has_signed, verify_signed, parse, encode, decode, assemble, disassemble} from '@dtlc/jwt/utils'
+import {signature, has_signed, verify_signed, parse, encode, decode, assemble, disassemble} from '@unjuanable/jwt/utils'
 // 签名
 signature(header, payload, salt, [alg = ''])
 // 是否签名
