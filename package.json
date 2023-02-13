@@ -1,6 +1,6 @@
 {
-  "name": "@dtlc/jwt",
-  "version": "0.1.0",
+  "name": "@unjuanable/jwt",
+  "version": "1.0.0",
   "description": "JSON Web Token",
   "repository": "https://github.com/dtlc/jwt.git",
   "main": "src/index.js",
