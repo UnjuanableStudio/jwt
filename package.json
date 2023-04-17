@@ -1,6 +1,6 @@
 {
   "name": "@unjuanable/jwt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSON Web Token",
   "repository": "https://github.com/dtlc/jwt.git",
   "main": "src/index.js",
@@ -10,16 +10,16 @@
     "src"
   ],
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 8000",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "crypto-js": "^4.1.1",
+    "js-base64": "^3.7.2"
   },
   "devDependencies": {
     "@unjuanable/storage": "^1.0.0",
-    "crypto-js": "^4.1.1",
-    "js-base64": "^3.7.2",
     "vite": "^2.8.6"
   }
 }
